@@ -1,1 +1,5 @@
-# hrrn
+# HRRN simulator
+
+---
+
+# วิธีใช้งาน
