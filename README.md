@@ -31,19 +31,19 @@
 
 1.คลิกที่ไฟล์ *hrrn.html* เพื่อใช้งาน เมื่อกดแล้วจะพบหน้าเว็บดังรูป
 
-![picture1](https://github.com/ArtMuchimuchi/hrrn/tree/main/pictures/1.jpg)
+![picture1](https://github.com/ArtMuchimuchi/hrrn/blob/main/pictures/1.jpg)
 
 2.สามารถกรอกข้อมูลลงในฟอร์มทางซ้ายได้ โดยไม่จำเป็นต้องเรียง Arrival time 
 
 - หากต้องการคำนวนแบบ *non-preemtive* ไม่ต้องทำเครื่องหมายถูกที่ช่อง preemtive และไม่จำเป็นต้องระบุ Time quantum
 - หากต้องการคำนวนแบบ *preemtive* จำเป็นต้องทำเครื่องหมายถูกที่ช่อง preemtive และระบุ Time quantum
 
-![picture2](https://github.com/ArtMuchimuchi/hrrn/tree/main/pictures/2.jpg)
+![picture2](https://github.com/ArtMuchimuchi/hrrn/blob/main/pictures/2.jpg)
 
 
 3. กด *Solve* เพื่อทำการคำนวน จะมีผลลัพธ์แสดงออกมาทางด้านขวา โดยมี Gaant chart พร้อมกับตารางสรุปข้อมูล
 
-![picture3](https://github.com/ArtMuchimuchi/hrrn/tree/main/pictures/3.jpg)
+![picture3](https://github.com/ArtMuchimuchi/hrrn/blob/main/pictures/3.jpg)
 
 *ข้อควรระวัง*
 
@@ -51,7 +51,7 @@
 
 2.การกรอก Input ที่ผิดปกติจะทำให้เกิดหน้าต่างแจ้งเตือนขึ้นมาดังรูป 
 
-![picture4](https://github.com/ArtMuchimuchi/hrrn/tree/main/pictures/4.jpg)
+![picture4](https://github.com/ArtMuchimuchi/hrrn/blob/main/pictures/4.jpg)
 
 3.ในการกรอก Input โปรดตรวจสอบให้แน่ใจว่าไม่มีการกด *spacebar* หลังเลขตัวสุดท้าย ไม่เช่นนั้นเว็บอาจค้างได้
 
