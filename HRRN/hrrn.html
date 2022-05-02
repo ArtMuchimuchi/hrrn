@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRRN Simulator</title>
+    <link rel="stylesheet" href="hrrn.css">
+    <script src="hrrn.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container--input">
+        <h3 class="text--header">Input</h3>
+        <h4 class="text--ordinary">Arrival Times</h4>
+        <input class="input-box" id="arrival" type="text" placeholder="E.g. 0 1 6 8">
+        <h4 class="text--ordinary">Burst Times</h4>
+        <input class="input-box" id="burst" type="text" placeholder="E.g. 3 1 2 5">
+        <h4 class="text--ordinary">Time Quantum</h4>
+        <input class="input-box" id="time_quantum" type="text" placeholder="E.g. 4">
+        <h4 class="text--ordinary">Preemptive</h4>
+        <input class="check-box" id="preemtive" type="checkbox">
+        <input class="button" id="submit" type="submit" value="Solve">
+    </div>
+    <div class="container--output">
+        <h3 class="text--header">Output</h3>
+        <div class="gantt-chart hidden">
+            <span class="text--ordinary">Gantt Chart</span>
+            <div class="boxContainer">
+            </div>
+        </div>
+        <table class="output__table hidden">
+            <thead>
+                <td class="column column1">
+                    <span>Job</span>
+                </td>
+                <td class="column column2">
+                    <span>Arrival Time</span>
+                </td>
+                <td class="column column3">
+                    <span>Burst Time</span>
+                </td>
+                <td class="column column4">
+                    <span>Completion Time</span>
+                </td>
+                <td class="column column5">
+                    <span>Turnaround Time</span>
+                </td>
+                <td class="column column6">
+                    <span>Waiting Time</span>
+                </td>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

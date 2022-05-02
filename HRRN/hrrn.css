@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Prompt', sans-serif;
+}
+
+.container--input, .container--output {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    padding-top: 10px;
+    height: 560px;
+}
+
+.container--input {
+    top: 50px;
+    left: 50px;
+    width: 440px;
+}
+
+.container--output {
+    top: 50px;
+    left: 600px;
+    right: 50px;
+}
+
+.text--header {
+    font-size: 35px;
+}
+
+.text--ordinary {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(95, 95, 95);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    height: 25px;
+    width: 240px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-box::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(37, 128, 247);
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(26, 88, 170);
+}
+
+.button:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 128, 247);
+}
+
+.container--input .button {
+    position: absolute;
+    bottom: 110px;
+    left: 30px;
+}
+
+.output__table {
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    top: 38%;
+    left: 30px;
+    right: 30px;
+    height: 50px;
+    /* border: solid rgb(95, 95, 95); */
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+.column {
+    width: 160px;
+    height: 40px;
+    border: solid rgb(95, 95, 95);
+    background-color: rgb(241, 241, 241);
+}
+
+.column1 {
+    width: 60px;
+}
+
+tbody td{
+    height: 40px;
+    border: solid rgb(95, 95, 95);
+}
+
+.hidden {
+    display: none;
+}
+
+.gantt-chart {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 93%;
+}
+
+
+
+.boxContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #d4edff;
+    border: solid #8ea1ae;
+}
+
+.jobName {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.leftOfBox {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateX(-65%);
+}
+
+.rightOfBox {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transform: translateX(65%);
+}
+
+.betweenBox {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transform: translateX(65%);
+}
